@@ -5,7 +5,7 @@ metadata:
   name: simple-rest-golang-deployment
   namespace: retail-project-dev
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: simple-rest-golang
